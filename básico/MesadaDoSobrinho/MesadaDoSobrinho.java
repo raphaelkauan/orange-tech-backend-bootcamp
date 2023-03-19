@@ -12,13 +12,10 @@ public class MesadaDoSobrinho {
 
     System.out.print("Insira uma entrada: ");
     int entrada = leitor.nextInt();
-
     int mesada = 50;
 
-    /*
-     * TODO: Crie a condição necessária para que o sobrinho saiba quanto dinheiro
-     * irá juntar nos meses da entrada
-     */
+    // TODO: Crie a condição necessária para que o sobrinho saiba quanto dinheiro
+    // irá juntar nos meses da entrada
 
     int total = mesada * entrada;
     System.out.println("O sobrinho juntou " + total + "$");
